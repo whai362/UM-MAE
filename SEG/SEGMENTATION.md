@@ -3,7 +3,7 @@
 conda create -n segenv python=3.8 pytorch==1.9.0 cudatoolkit=11.1 torchvision -c pytorch -y
 conda activate segenv
 pip install mmcv-full==1.3.0 
-pip install mmseg==0.11.0
+pip install mmsegmentation==0.11.0
 pip install scipy timm==0.3.2
 git clone https://github.com/NVIDIA/apex
 cd apex
