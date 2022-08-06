@@ -5,7 +5,6 @@ import torch.nn.functional as F
 import math
 from functools import partial
 from timm.models.layers import trunc_normal_
-from .base.vit import TIMMVisionTransformer
 from mmdet.utils import get_root_logger
 from mmcv.runner import load_checkpoint
 from mmdet.models.builder import BACKBONES
